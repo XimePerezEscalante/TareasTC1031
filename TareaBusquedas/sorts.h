@@ -2,7 +2,7 @@
 //  sorts.h
 //  TareaBusquedas
 //
-//  Created by Ximena Perez Escalante on 19/08/24.
+//  Created by Ximena Perez Escalante A01751827 on 19/08/24.
 //
 
 #ifndef sorts_h
