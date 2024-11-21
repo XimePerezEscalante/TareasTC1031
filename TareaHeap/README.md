@@ -1,2 +1,2 @@
 # README
-## No hubo ninguna corrección
+No hubo ninguna corrección
