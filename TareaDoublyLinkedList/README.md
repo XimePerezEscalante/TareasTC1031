@@ -34,4 +34,4 @@ void DList<T>::insertion(int val){
     size = size + 1;
 }
 ```
-Se simplificó el código porque no era necesario ese condicional y ahora únicamente hago que "tail" y "next" del último nodo sea igual a "aux", así como "previous" de aux sea el (ahora) penúltimo nodo.
+Se simplificó el código porque no era necesario ese condicional y ahora únicamente hago que "tail" y "next" del último nodo sean igual a "aux", así como "previous" de aux sea el (ahora) penúltimo nodo.
