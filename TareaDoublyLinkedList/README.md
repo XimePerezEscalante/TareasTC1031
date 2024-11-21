@@ -12,7 +12,8 @@ else{
     tail = aux;
 }
 ```
-Ya que cuando mandaba a llamar a "toStringBackward" no se imprimía la cabeza de la lista. Lo cambié y quedó así:
+Ya que cuando mandaba a llamar a "toStringBackward" no se imprimía la cabeza de la lista. 
+Lo cambié y quedó así:
 ```
 template <class T>
 void DList<T>::insertion(int val){
