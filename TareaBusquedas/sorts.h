@@ -21,8 +21,6 @@ private:
 public:
     void ordenaSeleccion(std::vector<T>&);
     void ordenaBurbuja(std::vector<T>&);
-
-    
     void ordenaMerge( std::vector<T>&);
     int busqSecuencial(const std::vector<T>&, int);
     int busqBinaria(const std::vector<T>&, int);
@@ -35,9 +33,6 @@ void Sorts<T>::swap(std::vector<T> &v, int i, int j) {
     T aux = v[i];
     v[i] = v[j];
     v[j] = aux;
-    
-    //std::cout << "Swapped " << aux << " with " << v[i] << std::endl;
-    
 }
 
 template <class T>
@@ -80,10 +75,6 @@ void Sorts<T>::ordenaBurbuja(std::vector<T> &v){
         }
     }
 }
-
-
-//{58, 92, 75, 5, 21, 92, 84, 91, 64, 54, 3, 28, 11, 61, 65, 4, 1, 8, 52, 78}
-
 
 template <class T>
 void Sorts<T>::mergeArray(std::vector<T> &source, std::vector<T> &temp, int low, int mid, int high) {
@@ -150,14 +141,10 @@ int Sorts<T>::busqSecuencial(const std::vector<T> &source, int find){
         
         if (source[i] == find){
             index = i;
-        }
-        
-      
+        } 
     }
     return index;
 }
-
-
 
 template <class T>
 int Sorts<T>::busqBinaria(const std::vector<T> &source, int find){
