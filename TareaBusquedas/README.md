@@ -1,3 +1,4 @@
+# README
 ## Correcciones
 En esta entrega subí un archivo incorrecto (el archivo donde realizaba todas mis pruebas) y el Merge Sort no estaba terminado, por lo que también tuve mal la parte de búsquedas. Cuando realicé las pruebas, el Selection Sort me marcaba success así que no estoy segura sobre por qué tuve 0. A continuación adjunto el Merge Sort terminado.
 
