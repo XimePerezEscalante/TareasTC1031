@@ -39,7 +39,7 @@ void Sorts<T>::mergeArray(std::vector<T> &source, std::vector<T> &temp, int low,
 
 ```
 
-```
+```c++
 template <class T>
 void Sorts<T>::mergeSplit(std::vector<T> &source, std::vector<T> &temp, int low, int high) {
     int mid;
