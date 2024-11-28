@@ -93,7 +93,6 @@ void Graph::addToMat(int n1, int n2, bool binario)
         std::cout << "[" << n2 << "][" << n1 << "]: " << adjMatrix[n2 * n1] << std::endl;
         edgesMat++;
     }
-    //sortAdjList();
 }
 
 void Graph::loadGraphMat(std::string inputMat, int n1, int n2)
@@ -112,7 +111,6 @@ void Graph::loadGraphMat(std::string inputMat, int n1, int n2)
     for (int j = 0;j < nodes;j++){
         addToMat(j, j, false);
     }
-    //construir la matriz con 0s y 1s
 }
 
 std::string Graph::printAdjList()
