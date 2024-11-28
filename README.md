@@ -1,3 +1,3 @@
 # TareasTC1031
 
-Tareas para revisar: Sorts y listas doblemente ligadas
+Tareas para revisar: Sorts, listas doblemente ligadas y grafos aunque sólo sirve una parte :(
